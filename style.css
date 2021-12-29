@@ -1,0 +1,64 @@
+#div_tong{
+	width:100%;
+	height: 1000px;
+	background-color: #ffd9f2;
+	position: relative;
+}
+.top{
+	background-color: #450085;
+	width: 100%;
+	height: 20%;
+	float: left;
+}
+/*.bot{
+	width: 100%;
+	height: 80%;
+	float: left;
+}*/
+#main{
+	position: absolute;
+	width: 40% ;
+	height: 70%;
+	background-color: white;
+	top: 10%;
+	left: 20%;
+	border-top:9px solid #c28cff;
+	border: 1px solid #c28cff ;
+
+
+}
+h1{
+	font-size: 40px;
+}
+.id{
+	width: 100%;
+	margin-bottom: 50px;
+	margin-left: 10%;
+	font-size: 15px;
+}
+.id label{
+	width: 50%;
+}
+button[type="submit"]{
+	background-color: #3392ff;
+	border: none;
+	font-weight: bold;
+	font-family: inherit;
+	font-size: 18px;
+	color: white;
+}
+.id input{
+	font-size: 17px;
+	border-style: none;
+	width: 80%;
+	height: 20px;
+	border-bottom-color: purple;
+
+}
+input:hover{
+	border-bottom: solid purple 2px;
+}
+button[type="submit"]:hover{
+	cursor:	pointer ;
+
+}
